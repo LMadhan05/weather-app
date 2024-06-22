@@ -96,8 +96,7 @@ fun WeatherPage(viewModel: WeatherViewModel) {
             is NetworkResponse.Success -> {
                 WeatherDetails(data = result.data)
             }
-            null -> {
-            }
+            null -> {}
         }
 
     }
