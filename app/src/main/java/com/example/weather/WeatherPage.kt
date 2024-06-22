@@ -49,7 +49,6 @@ fun WeatherPage(viewModel: WeatherViewModel) {
     val weatherResult = viewModel.weatherResult.observeAsState()
 
     val keyboardController = LocalSoftwareKeyboardController.current
-    Spacer(modifier = Modifier.width(8.dp))
     Column(
         modifier = Modifier
             .fillMaxWidth()
